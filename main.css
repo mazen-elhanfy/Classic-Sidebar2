@@ -1,0 +1,206 @@
+*{
+    box-sizing: border-box;
+}
+.parent{
+    width: 400px;
+    height: 1200px;
+    background-color: #ddd;
+    margin: 50px auto;
+    position: relative;
+}
+h3{
+    text-transform: capitalize;
+    position: absolute;
+    left: 5%;
+    color: #fff;
+}
+h3::after{
+content: "";
+    width: 30px;
+    height: 1px;
+    background-color: dodgerblue;
+    position: absolute;
+    left: 110%;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.main{
+    width: 100%;
+        height: 25%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        position: absolute;
+        left: 0;
+        top: 5%;
+}
+.main>div{
+    width: 100%;
+    height: calc(100% / 5);
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.main .one::after{
+    content: "69";
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        position: absolute;
+        left: 90%;
+        top: 5%;
+        background-color: #ddd;
+        color: #fff;
+}
+.main .two::after{
+    content: "25";
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        position: absolute;
+        left: 90%;
+        top: 25%;
+        background-color: #ddd;
+        color: #fff;
+}
+.main .three::after{
+    content: "18";
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        position: absolute;
+        left: 90%;
+        top: 45%;
+        background-color: #ddd;
+        color: #fff;
+}
+.main .four::after{
+    content: "37";
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        position: absolute;
+        left: 90%;
+        top: 65%;
+        background-color: #ddd;
+        color: #fff;
+}
+.main .five::after{
+    content: "12";
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        position: absolute;
+        left: 90%;
+        top: 85%;
+        background-color: #ddd;
+        color: #fff;
+}
+.gallery{
+    position: absolute;
+    top: 30%;    
+}
+.images{
+    width: 100%;
+        height: 20%;
+        position: absolute;
+        left: 0;
+        top: 35%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+}
+.images >img{
+    width: calc(96% / 3);
+    height: calc(80% / 2);
+}
+.archieves{
+    top: 55%;
+}
+.parent .first{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    padding-left: 15px;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 60%;
+    background-color: #fff;
+}
+.parent .second{
+    width: 100%;
+        height: 5%;
+        display: flex;
+        padding-left: 15px;
+        align-items: center;
+        position: absolute;
+        left: 0;
+        top: 65%;
+        background-color: #fff;
+}
+.parent .third{
+    width: 100%;
+        height: 5%;
+        display: flex;
+        padding-left: 15px;
+        align-items: center;
+        position: absolute;
+        left: 0;
+        top: 70%;
+        background-color: #fff;
+}
+.parent .fourth{
+    width: 100%;
+    height:5%;
+    display: flex;
+    padding-left: 15px;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 75%;
+    background-color: #fff;
+}
